@@ -1,0 +1,30 @@
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#qaContent {
+	font-size:16px;
+}
+
+#qaContent ul.accordionPart li {
+	border-bottom: solid 1px #e3e3e3;
+	padding-bottom: 12px;
+	margin-top: 12px;
+}
+#qaContent ul.accordionPart li .qa_title {
+	background:  no-repeat 0px 3px;
+	padding-left: 23px;
+	color: #1186ec;
+	cursor: pointer;
+	font-size:1.2em;
+}
+#qaContent ul.accordionPart li .qa_title_on {
+	text-decoration: underline;
+}
+#qaContent ul.accordionPart li .qa_content {
+	margin: 6px 0 0;
+	background:  no-repeat 0px -24px;
+	padding-left: 16px;
+	color: #666;
+}

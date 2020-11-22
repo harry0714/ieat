@@ -1,0 +1,19 @@
+.table01,  .table02{
+	width: 98%;
+}
+.table01 th {
+	width:5%;
+	padding: 10px 15px ;
+	background: #eee;
+	border-bottom:#cccccc solid 1px;
+	
+}
+.table01 td {
+	height:50px;
+	padding: 10px 10px;
+	border-bottom:#cccccc solid 1px;
+}
+
+#card, #nowDay {
+	padding: 10px 10px 10px 25px;
+}

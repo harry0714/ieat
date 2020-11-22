@@ -1,0 +1,36 @@
+
+.workspace{
+	border:1px solid red;
+	padding:10px;
+	min-height:800px;
+	margin-left:15%;
+	margin-right:15%;
+}
+.membermenu{
+	width:100%;
+	
+}
+.membermenu>ul>li{
+	font-size: 1.5em;
+}
+.membermenu ul li div a{
+	font-size: 1em;
+}
+.membermenu ul li div a:hover{
+	background:#b30000;
+	color:#fff;
+}
+.membershow{
+	width:78%;
+	float:left;
+	border:1px solid red;
+	margin-left:10px;
+}
+.aaaaa{
+	clear:both;
+}
+.main-register1 {
+  padding: 3em;
+  min-height:800px;
+  margin-left:15%;
+}

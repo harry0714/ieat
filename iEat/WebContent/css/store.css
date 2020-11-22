@@ -1,0 +1,36 @@
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#store_title{
+		width: 500px;
+	height: 22px;
+	background:#ccc;
+	border-radius:5px;
+}
+#store_content{
+	
+	font-size:16px;	
+}
+#store_content h3 {
+	width: 1140px;
+	height: 22px;
+	background:#ccc;
+	border-radius:5px;
+}
+#morning{
+	
+	background:LightSkyBlue;
+	border-radius:5px;
+	
+}
+#noon{
+	background:orange;
+	border-radius:5px;
+}
+#night{
+	
+		background:#ccc;
+	border-radius:5px;
+}

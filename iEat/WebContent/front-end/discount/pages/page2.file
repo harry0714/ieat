@@ -1,0 +1,28 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+  <%if (rowsPerPage<rowNumber) {%>
+  <ul class="pager" style="margin:0;float:right">
+    <%if(pageIndex>=rowsPerPage){%>
+        <li><A href="listStoreDiscount.jsp?&whichPage=1">至第一頁</A></li>
+        <li><A href="listStoreDiscount.jsp?whichPage=<%=whichPage-1%>">上一頁 </A></li>
+    <%}%>
+  
+    <%if(whichPage<pageNumber){%>
+        <li><A href="listStoreDiscount.jsp?whichPage=<%=whichPage+1%>">下一頁 </A></li>
+        <li><A href="listStoreDiscount.jsp?whichPage=<%=pageNumber%>">至最後一頁</A></li>
+    <%}%>
+  </ul>  
+  <%}%> 
+  
+<%if ( pageNumber > 1) {%>
+	
+   <FORM class="form-inline" METHOD="post" ACTION="listStoreDiscount.jsp">   
+           <select class="form-control input-sm" size="1" name="whichPage" onchange="this.form.submit()">
+        <%for (int i=1; i<=pageNumber; i++){%>
+           <option value="<%=i%>" <%=(i==whichPage)?"selected":""%>>第<%=i%>頁
+        <%}%> 
+           </select>
+   </FORM>
+   	
+<%}%>
+<div class="clearfix"> </div>

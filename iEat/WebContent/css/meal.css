@@ -1,0 +1,10 @@
+#css_table {
+  border:1px solid red;
+      display:table;
+  }
+.css_tr {
+      display: table-row;
+  }
+.css_td {
+      display: table-cell;
+  }
